@@ -1,0 +1,7 @@
+.bar {
+  background-color: red; }
+  .bar .foo {
+    background-color: red; }
+
+h1 {
+  color: tomato !important; }
