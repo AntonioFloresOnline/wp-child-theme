@@ -127,3 +127,6 @@ add_action('wp_enqueue_scripts', 'theme_assets');
 // {
 //     return get_fields($object['id']);
 // }
+
+// Call custom widgets only if the elementor plugin is activated
+// include 'elementor-custom-widgets/My_Widgets_Registry.php';
